@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Aditi Jain | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body>
+
+  <!-- Navigation -->
+  <header>
+    <nav>
+      <div class="logo">Aditi Jain</div>
+      <div class="nav-toggle" onclick="toggleMenu()"><span></span><span></span><span></span></div>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#certifications">Certifications</a></li>
+        <li><a href="#achievements">Achievements</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero -->
+  <section id="home">
+    <div class="hero-content">
+      <h1>Hello, I’m <span class="typed-text"></span></h1>
+      <p>BCA Student | Aspiring Software Engineer | Developer</p>
+      <a href="#contact" class="btn">Let's Connect</a>
+      <a href="resume.pdf" class="btn resume-btn" download>Download Resume</a>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about">
+    <h2>About Me</h2>
+    <p>
+       I’m Aditi Jain — an aspiring Web and Software Engineer passionate about building impactful digital experiences.
+       Currently pursuing my degree in Computer Applications with a strong focus on full-stack development.
+       I enjoy turning ideas into clean, responsive, and user-friendly web applications.
+       Skilled in front-end technologies like HTML, CSS, JavaScript, and exploring backend frameworks.
+       I’m driven by problem-solving, creativity, and continuous learning in tech.
+       My projects reflect a balance of functionality, performance, and design.
+       I value collaboration, code readability, and meaningful user experiences.
+       Always excited to grow, innovate, and bring ideas to life through code.
+  </p>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills">
+    <h2>Skills</h2>
+    <div class="skills-flex">
+      <!-- Technical Skills -->
+      <div class="tech-skill-cards">
+        <div class="skill-card"><span>HTML</span><div class="bar"><div class="fill" style="width: 95%;"></div></div></div>
+        <div class="skill-card"><span>CSS</span><div class="bar"><div class="fill" style="width: 92%;"></div></div></div>
+        <div class="skill-card"><span>JavaScript</span><div class="bar"><div class="fill" style="width: 85%;"></div></div></div>
+        <div class="skill-card"><span>Python</span><div class="bar"><div class="fill" style="width: 90%;"></div></div></div>
+        <div class="skill-card"><span>MySQL</span><div class="bar"><div class="fill" style="width: 87%;"></div></div></div>
+        <div class="skill-card"><span>XAMPP</span><div class="bar"><div class="fill" style="width: 80%;"></div></div></div>
+      </div>
+
+      <!-- Soft Skills -->
+      <div class="soft-skill-bars">
+        <div class="skill-bar"><span>Teamwork</span><div class="bar"><div class="fill" style="width: 85%;"></div></div></div>
+        <div class="skill-bar"><span>Communication</span><div class="bar"><div class="fill" style="width: 90%;"></div></div></div>
+        <div class="skill-bar"><span>Leadership</span><div class="bar"><div class="fill" style="width: 80%;"></div></div></div>
+        <div class="skill-bar"><span>Problem Solving</span><div class="bar"><div class="fill" style="width: 88%;"></div></div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="projects-grid">
+      <div class="project-card">
+        <img src="artcarft.jpg" alt="Art & Craft Website" />
+        <h3>Art & Craft Website</h3>
+        <p>Gallery website with backend integration.</p>
+        <p><strong>Tech:</strong> HTML, CSS, JavaScript, XAMPP, MySQL</p>
+        <p><strong>GitHub:</strong> <a href="https://github.com/aditijain19pu/Artisans-Corner" target="_blank">View Code</a></p>
+      </div>
+      <div class="project-card">
+        <img src="/bus.png" alt="Bus Reservation System" />
+        <h3>Bus Reservation System</h3>
+        <p>Terminal-based ticket and seat manager.</p>
+        <p><strong>Tech:</strong> Python, MySQL</p>
+        <p><strong>GitHub:</strong> <a href="https://github.com/aditijain19pu/Bus-Reservation-System" target="_blank">View Code</a></p>
+      </div>
+      <div class="project-card">
+        <img src="pharmacy.jpeg" alt="Pharmacy Management" />
+        <h3>Pharmacy Management System</h3>
+        <p>Inventory and billing software.</p>
+        <p><strong>Tech:</strong> Python, MySQL</p>
+        <p><strong>GitHub:</strong> <a href="https://github.com/aditijain19pu/Pharmacy-Mangement-System" target="_blank">View Code</a></p>
+      </div>
+      <div class="project-card">
+        <img src="landing_page.png" alt="Landing Page Project" />
+        <h3>Landing Page Project</h3>
+        <p>A sleek, static landing page software.</p>
+        <p><strong>Tech:</strong> HTML, CSS</p>
+        <p><strong>GitHub:</strong> <a href="https://github.com/aditijain19pu/Internship_Task1" target="_blank">View Code</a></p>
+        <p><strong>Live:</strong> <a href="https://aditijain19pu.github.io/Internship_Task1/" target="_blank">Visit Site</a></p> 
+      </div>
+      <div class="project-card">
+        <img src="temperature.png" alt="Temperature Converter Website" />
+        <h3>Temperature Converter Website</h3>
+        <p>A responsive app that converts temperature units using real-time JavaScript logic.</p>
+        <p><strong>Tech:</strong> HTML, CSS, JavaScript</p>
+        <p><strong>GitHub:</strong> <a href="https://github.com/aditijain19pu/Internship_Task2" target="_blank">View Code</a></p>
+        <p><strong>Live:</strong> <a href="https://aditijain19pu.github.io/Internship_Task2/" target="_blank">Visit Site</a></p> 
+      </div>
+      <div class="project-card">
+        <img src="calculator.png" alt="Calculator Website" />
+        <h3>Calculator Website</h3>
+        <p>A dynamic calculator built with JavaScript, handling multi-step expressions.</p>
+        <p><strong>Tech:</strong> HTML, CSS, JavaScript</p>
+        <p><strong>GitHub:</strong> <a href="https://github.com/aditijain19pu/Internship_Task3" target="_blank">View Code</a></p>
+        <p><strong>Live:</strong> <a href="https://aditijain19pu.github.io/Internship_Task3/" target="_blank">Visit Site</a></p> 
+      </div>
+    </div>
+  </section>
+
+  <!-- Certifications with Logos -->
+  <section id="certifications">
+    <h2>Certifications</h2>
+    <div class="certifications-grid">
+      <div class="cert-card">
+        <img src="Microsoft_Azure-Logo.png" alt="Azure" />
+        <div><h4>Azure Fundamentals</h4><p>Microsoft — Dec 2024</p></div>
+      </div>
+      <div class="cert-card">
+        <img src="Microsoft_Azure-Logo.png" alt="Data Fundamentals" />
+        <div><h4>Azure Data Fundamentals</h4><p>Microsoft — Dec 2024</p></div>
+      </div>
+      <div class="cert-card">
+        <img src="Microsoft_Azure-Logo.png" alt="AI Fundamentals" />
+        <div><h4>Azure AI Fundamentals</h4><p>Microsoft — Dec 2024</p></div>
+      </div>
+      <div class="cert-card">
+        <img src="powerplatform-logo.png" alt="Power Platform" />
+        <div><h4>Power Platform Fundamentals</h4><p>Microsoft — Dec 2024</p></div>
+      </div>
+      <div class="cert-card">
+        <img src="hackerrank-logo.png" alt="HackerRank" />
+        <div><h4>Python (Basic)</h4><p>HackerRank — Mar 2025</p></div>
+      </div>
+      <div class="cert-card">
+        <img src="nptel-logo.jpeg" alt="NPTEL" />
+        <div><h4>Speaking & Presentations</h4><p>NPTEL — Apr 2025 (94%)</p></div>
+      </div>
+      <div class="cert-card">
+        <img src="deloitte-logo.png" alt="Deloitte" />
+        <div><h4>Data Analytics Experience</h4><p>Deloitte — Jun 2025</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Achievements -->
+  <section id="achievements">
+    <h2>Achievements</h2>
+    <div class="achievements-grid">
+      <div class="achievement-card"><h4>🏅 SAP Hackfest</h4><p>Selected in State Hub Round</p></div>
+      <div class="achievement-card"><h4>🎯 TEK-Connect Expo</h4><p>Presented live project at CSIR-CEERI</p></div>
+      <div class="achievement-card"><h4>🤝 Proyogam 2K25</h4><p>Represented university in tech showcase</p></div>
+      <div class="achievement-card"><h4>🌱 Nanhe Kalakar</h4><p>Volunteered in green and creative fest</p></div>
+    </div>
+  </section>
+
+<!-- Contact -->
+<section id="contact">
+  <h2>Contact Me</h2>
+
+  <!-- Social Media Icons -->
+  <div class="contact-links-horizontal">
+    <a href="mailto:aditijaink25@gmail.com" target="_blank"><i class="fas fa-envelope"></i></a>
+    <a href="https://www.linkedin.com/in/aditi-jain-0065b4324" target="_blank"><i class="fab fa-linkedin"></i></a>
+    <a href="https://github.com/aditijain19pu" target="_blank"><i class="fab fa-github"></i></a>
+  </div>
+
+  <!-- Contact Form -->
+  <form name="submit-to-google-sheet" id="contact-form">
+    <input type="text" name="Name" placeholder="Your Name" required />
+    <input type="email" name="Email" placeholder="Your Email" required />
+    <textarea name="Message" placeholder="Your Message" required></textarea>
+    <button type="submit">Send Message</button>
+    <span id="msg"></span>
+  </form>
+</section>
+
+<!-- Footer -->
+<footer>
+  <p>© 2025 Aditi Jain. All rights reserved.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
